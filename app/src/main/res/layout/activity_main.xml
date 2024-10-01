@@ -14,7 +14,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:scaleType="centerCrop"
-        android:src="@drawable/ic_dummy" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_dummy"
+        app:civ_border_color="@color/red"
+        app:civ_border_width="4dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
